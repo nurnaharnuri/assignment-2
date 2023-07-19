@@ -1,0 +1,81 @@
+
+ /* Apply styles starting from medium devices and up to extra large devices */
+ @media (min-width: 577px) and (max-width: 992px) { 
+
+
+
+    .header{
+        flex-direction: column;
+     
+      }
+
+
+      .games-cards{
+        flex-direction: column;
+      
+    }
+
+    .play-section {
+        flex-direction: column;
+    }
+    .play-section img{
+        margin-top: 40px;
+    }
+      
+ }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .header{
+        flex-direction: column;
+       
+     
+      }
+
+      .header-icons{
+        padding: 10px 40px;
+        margin-top: 10px;
+      }
+
+      .header ul{
+        flex-direction: column;
+      }
+      .header ul li{
+        margin-top: 10px;
+      }
+
+      .banner{
+        flex-direction: column;
+        margin-top: 50px;
+      }
+      .banner img{
+        margin-top: 50px;
+      }
+
+      .section-info p{
+        padding: 10px;
+    }
+
+    .games-cards{
+        flex-direction: column;
+        padding: 10px;
+      
+    }
+
+    .play-section{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .play-images{
+        margin-top: 50px;
+    }
+
+    .play-image{
+        width: 200px;
+        margin-left: 92px;
+    }
+    
+}

@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Share styles */
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn-primary{
+    color: #FFF;
+    padding: 20px 40px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+
+.section-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-description{
+    color: #534C64;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* header section start */
+header{
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+
+.header-icons{
+    border-radius: 8px;
+    padding: 20px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.header-icons svg{
+    cursor: pointer;
+}
+
+.header-logo img{
+    width: 100%;
+}
+
+.header-logo{
+    display: flex;
+    gap: 10px;
+}
+
+.header h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.header ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header ul li{
+  margin-right: 32px;
+}
+.header ul a{
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+/* header section end */
+
+/* banner section start */
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+.banner-text{
+    background-image: url(../images/Group\ 14.png);
+    background-position: center;
+    padding: 20PX;
+}
+
+
+.play-link{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner h1{
+    font-size: 95px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner, .para{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 17px;
+    
+}
+
+
+.btn-primary{
+    
+    margin-top: 40px;
+}
+.btn-secondary{
+    background: #4EC5F7;
+}
+
+.banner img{
+    width: 100%;
+}
+
+/* banner section end */
+
+/* online games section start */
+
+.games-section{
+    margin: 120px 0;
+}
+
+.games-section h2 {
+    text-align: center;
+}
+
+.section-info p{
+    text-align: center;
+}
+
+.games-cards img{
+    width: 100%;
+}
+
+.games-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+  
+}
+
+.games-card img{
+    border: 5px solid #fff;
+    border-radius: 17px;
+}
+.games-card img:hover{
+    border: 5px solid #FF42A5;
+    border-radius: 17px;
+}
+
+.start-games{
+    position: relative;
+    cursor: pointer;
+}
+
+.start-button{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50px;
+    background-color:goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+
+  
+  .games-card:hover .image {
+    opacity: 0.5;
+  }
+  .games-card h4 {
+    margin-top: 60px;
+  }
+  
+  
+
+
+
+
+/* online games section end */
+
+/* play section start */
+
+
+    .play-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .play-section-text, .section-title p{
+        max-width: 353px;
+        text-align: right;
+    }
+
+    .play-images{
+        position: relative;
+    }
+    .play-image{
+        position: absolute;
+        bottom: -92px;
+        left: -92px;
+    }
+    .play-section img{
+        width: 100%;
+        
+    }
+
+
+
+
+    .atart-games{
+        position: relative;
+    }
+
+
+/* play section end */
+/* buttons section start */
+.buttons-section{
+    margin: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    transition: .3s;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+
+
+    
+}
+
+
+
+.profile h4{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.profile:hover{
+    color: #FF42A5;
+    border: 1px solid  #FF42A5;
+    border-radius: 50px;
+    padding: 5px;
+}
+/* buttons section end */
+
+/* footer section start */
+footer{
+    text-align: center;
+    background: #0B0223;
+    padding: 120px 0;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    list-style: none;
+    margin-top: 60px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.footer-desc, .fotter-text{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.fotter-text{
+    margin-top: 20px;
+}
+
+/* footer section end */
